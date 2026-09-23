@@ -1,0 +1,16 @@
+<main>
+    <p>Premier nombre:</p> <input name="n1" #n1/>
+    <p>Second nombre:</p> <input name="n2" #n2/>
+    <p>Resultat: </p> <input value="{{result | number: '1.0-2'}}"/>
+    <br/>
+    <br/>
+
+    <div>
+        <button (click)="addNums(n1.value, n2.value)">+</button>
+        <button (click)="subNums(n1.value, n2.value)">-</button>
+        <button (click)="mulNums(n1.value, n2.value)">*</button>
+        <button (click)="divNums(n1.value, n2.value)">/</button>
+    </div>
+
+
+</main>
