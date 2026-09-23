@@ -1,11 +1,26 @@
-Mady Kane 300328381
+# Laboratoire 1 : Calculatrice
 
-Lab 1:
-Consistant a faire une calculatrice qui peut additioner, soustraire, multiplier ou diviser deux nombres.
-les fichers modifies sont dans /src/app/calculatrice:
-calculatrice.css
-calculatrice.html
-calculatrice.ts
+**Nom :** Mady Kane  
+**Numéro étudiant :** 300328381  
 
-etre sur le root
-puis ng serve
+---
+
+## Description
+Projet consistant à faire une calculatrice capable d'additionner, soustraire, multiplier ou diviser deux nombres.
+
+---
+
+## Fichiers modifiés
+Les fichiers modifiés se trouvent dans `/src/app/calculatrice` :
+* `calculatrice.css`
+* `calculatrice.html`
+* `calculatrice.ts`
+
+---
+
+## Instructions d'exécution
+
+1. Se placer à la racine du projet (`root`).
+2. Lancer le serveur de développement :
+   ```bash
+   ng serve
